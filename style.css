@@ -88,12 +88,10 @@ header {
 }
 .technologie {
   align-content: center;
-  background-color: rgb(134, 114, 89);
   width: 70vw;
 }
 .projects {
   align-content: stretch;
-  background-color: blanchedalmond;
   width: 70vw;
   margin-top: 2rem;
 }
@@ -131,8 +129,35 @@ figure {
   font-size: 1.5rem;
   margin: 2rem;
 }
-footer {
+
+.foot {
+  background-color: #4637a5;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.foot > div {
+  padding: 3rem;
+  color: white;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+.me {
+  width: 300px;
+  height: auto;
+}
+input {
+  margin: 0.2rem;
+}
+.logo {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 12px;
+  left: 20px;
+  font-family: "Amiri";
+  color: white;
 }
