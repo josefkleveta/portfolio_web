@@ -27,9 +27,10 @@ h6 {
 }
 
 .nadpis {
-  font-size: 5rem;
+  font-size: 8vw;
   font-family: "Palanquin Dark";
   margin: 2rem;
+  text-align: end;
 }
 
 input,
@@ -51,7 +52,7 @@ nav {
   color: white;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .container {
@@ -61,8 +62,10 @@ nav {
 }
 
 .menu-item {
-  margin: 1rem;
+  margin: 0.1vw 2vw 0 2vw;
+  margin-top: 0rem;
   font-family: "Palanquin Dark";
+  font-weight: 100;
 }
 
 .menu-item:hover {
@@ -80,8 +83,9 @@ header {
 
 .motto {
   font-family: "Palanquin Dark";
-  font-size: 4rem;
-  margin: 4rem;
+  font-size: 5vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
   display: flex;
   width: 40%;
   text-shadow: 1px 1px 5px black;
@@ -121,8 +125,8 @@ figure {
 }
 .technologie-nadpis {
   font-family: "Palanquin Dark";
-  font-size: 4rem;
-  padding-top: 2rem;
+  font-size: 6vw;
+  padding-top: 4vw;
 }
 .text-standart {
   font-family: "Roboto";
@@ -138,7 +142,7 @@ figure {
 }
 
 .foot > div {
-  padding: 3rem;
+  padding: 1rem;
   color: white;
 }
 
@@ -147,17 +151,9 @@ label {
 }
 
 .me {
-  width: 300px;
+  width: 200px;
   height: auto;
 }
 input {
   margin: 0.2rem;
-}
-.logo {
-  position: absolute;
-  font-size: 1.5rem;
-  top: 12px;
-  left: 20px;
-  font-family: "Amiri";
-  color: white;
 }
